@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  font-family: "Outfit", sans-serif;
+  background-color: #d5e1ef;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #fff;
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+  width: 320px;
+  /* height: 497px; */
+  border-radius: 20px;
+  padding: 16px 16px 40px 16px;
+  text-align: center;
+}
+.img-wrapper {
+  background-color: #2c7dfa;
+  padding: 64px;
+  /* w tym przypadku to samo co padding: 
+  height: 288px;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+.card h1 {
+  color: #1f314f;
+  font-feature-settings: "clig" off, "liga";
+  line-height: normal;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+.card p {
+  color: #7d889e;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.188px;
+  /* margin-bottom: 40px;
+  margin-left: 32px;
+  margin-right: 32px; */
+  padding: 0 16px;
+}
